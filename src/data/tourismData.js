@@ -839,9 +839,9 @@ export const tourismData = {
     ],
     statistics: {
         totalTours: 40,
-        happyCustomers: "15K+",
+        happyCustomers: "2K+",
         countries: 1,
-        yearsExperience: 20
+        yearsExperience: 12
     },
     gallery: [
         {
