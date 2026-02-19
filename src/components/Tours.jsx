@@ -17,7 +17,7 @@ function Tours({ data, searchQuery, setSearchQuery, priceFilter, setPriceFilter,
     });
 
     return (
-        <>
+        <section id="tours" className="tours-section">
             {/* Search and Filter Section */}
             <div id="tours" className="controls-section">
                 <div className="search-container">
@@ -121,7 +121,7 @@ function Tours({ data, searchQuery, setSearchQuery, priceFilter, setPriceFilter,
                     </div>
                 )}
             </main>
-        </>
+        </section>
     );
 }
 
