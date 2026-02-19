@@ -670,7 +670,9 @@ body {
 
 /* Controls Section */
 .controls-section {
-  width: auto;
+  max-width: 1200px;
+  padding: 40px 20px;
+  padding-left: 320px;
   /* Sidebar width (300px) + padding (20px) */
 }
 
@@ -770,14 +772,18 @@ body {
   box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
 }
 
-.tours-section {
-  padding: 80px 20px 80px 320px;
+.tour-section {
   /* Left padding for sidebar */
   background: var(--background);
 }
 
 /* Tours Container */
-
+.tours-container {
+  max-width: calc(100vw - 320px);
+  /* Account for sidebar */
+  padding: 20px 20px 60px 320px;
+  /* Add left padding for sidebar */
+}
 
 .tours-grid {
   display: grid;
