@@ -12,12 +12,14 @@
   --primary-dark: #4f46e5;
   --secondary: #ec4899;
   --accent: #14b8a6;
-  --background: #0f172a;
-  --surface: #1e293b;
-  --surface-light: #334155;
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --surface-light: #f1f5f9;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
 
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -668,9 +670,7 @@ body {
 
 /* Controls Section */
 .controls-section {
-  max-width: 1200px;
-  padding: 40px 20px;
-  padding-left: 320px;
+  width: auto;
   /* Sidebar width (300px) + padding (20px) */
 }
 
@@ -770,13 +770,14 @@ body {
   box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
 }
 
-/* Tours Container */
-.tours-container {
-  max-width: calc(100vw - 320px);
-  /* Account for sidebar */
-  padding: 20px 20px 60px 320px;
-  /* Add left padding for sidebar */
+.tours-section {
+  padding: 80px 20px 80px 320px;
+  /* Left padding for sidebar */
+  background: var(--background);
 }
+
+/* Tours Container */
+
 
 .tours-grid {
   display: grid;
